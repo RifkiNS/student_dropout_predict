@@ -49,7 +49,7 @@ pip install -r requiments.txt
 # Run streamlit
 streamlit run app.py
 ```
-Berikut adalah link machine learning prototype: [Student Dropout Prediction]()
+Berikut adalah link machine learning prototype: [Student Dropout Prediction](https://rifkins-coba-appt-nqcowx.streamlit.app/)
 
 ## Conclusion ##
 Dashboard ini menampilkan berbagai visualisasi terkait performa mahasiswa dengan fokus pada analisis dropout. Tingginya angka dropout sebesar 39.1% dari total 4.424 mahasiswa mengindikasikan masalah serius yang perlu ditangani. Berdasarkan visualisasi, dropout tertinggi terjadi pada mahasiswa berjenis kelamin perempuan dengan 720 mahasiswa sedangkan pada mahasiswa berjenis kelamin laki-laki 701 mahasiswa yang melakukan dropout, sedangkan dari status pernikahan, mahasiswa single menyumbang dropout tertinggi 1184 kasua. Dropout juga paling banyak terjadi di program studi seperti Management (kelas malam) , Management reguler,  Nursing dan journalism and communication yang masing-masing mencatat lebih dari 100 kasus.
