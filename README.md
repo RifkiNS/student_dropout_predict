@@ -32,7 +32,8 @@ streamlit run app.py
 ## Business Dashboard ##
 Link Student Performance Dashboard  : [Student's Performance Dashboad](https://public.tableau.com/app/profile/rifki.nova.suryo/viz/StudentsPerformanceDashboard_17467529276790/Dashboard1?publish=yes) 
 
-![Dashboard 1](https://github.com/user-attachments/assets/0a35fa6f-97f0-48f5-83bc-272422d10d6d)
+![rifki_suryo-Dashboard](https://github.com/user-attachments/assets/aa59f9b4-2c5d-4344-9e52-add25b421b62)
+
 
 Pada dashboard di atas berisikan berbagai visualisasi yang mencakup total student's, dropout rate, dropout count, graduate count, student's status, dropout by martial status, dropout by gender dan mata kuliah yang memiliki dropout rate teringgi. Dashboard ini berfungsi sebagai alat bagi We Wi De Tok Institut khususnya dibagian akademik untuk memonitor performa mahasiswa dan mahasiswi yang berkuliah di sana.
 
