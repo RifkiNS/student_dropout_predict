@@ -57,22 +57,22 @@ def main():
 
     with col1:
         input_data["Curricular_units_2nd_sem_approved"] = st.number_input(
-            "Approve Second Semester Course Unit: ", step=1
+            "Approve Second Semester Course Unit: ", step=0.1
         )
         input_data["Curricular_units_1st_sem_approved"] = st.number_input(
-            "Approve First Semester Course Unit: ", step=1
+            "Approve First Semester Course Unit: ", step=0.1
         )
         input_data["Curricular_units_2nd_sem_grade"] = st.number_input(
-            "Second semester grade: ", step=1
+            "Second semester grade: ", step=0.1
         )
         input_data["Curricular_units_1st_sem_grade"] = st.number_input(
-            "First semester grade: ", step=1
+            "First semester grade: ", step=0.1
         )
         input_data["Tuition_fees_up_to_date"] = st.radio(
             "Select Tuition fees up to date:", ["Yes", "No"]
         )
         input_data["Curricular_units_2nd_sem_evaluations"] = st.number_input(
-            "Evaluations Second Semester Course Unit: ", step=1
+            "Evaluations Second Semester Course Unit: ", step=0.1
         )
         
 
@@ -80,9 +80,9 @@ def main():
         
 
     with col2:
-        input_data["Admission_grade"] = st.number_input("Admission grade", min_value=0, max_value=200, step=1)
+        input_data["Admission_grade"] = st.number_input("Admission grade", min_value=0, max_value=200, step=0.1)
         input_data["Age_at_enrollment"] = st.number_input("Age", step=1)
-        input_data["Previous_qualification_grade"] = st.number_input("Previous qualification grade", min_value=0, max_value=200, step=1)
+        input_data["Previous_qualification_grade"] = st.number_input("Previous qualification grade", min_value=0, max_value=200, step=0.1)
         input_data['Course'] = st.selectbox(
             "Course",
             [
@@ -104,7 +104,7 @@ def main():
             ]
         )
         input_data["Curricular_units_1st_sem_evaluations"] = st.number_input(
-            "Evaluation Second Semester Course Unit: ", step=1
+            "Evaluation First Semester Course Unit: ", step=0.1
         )
 
     input_df = pd.DataFrame([input_data])  # Convert collected data into a DataFrame
